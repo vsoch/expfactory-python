@@ -25,7 +25,15 @@ SOFTWARE.
 
 '''
 
-from expfactory.utils import save_template, clean_fields, copy_directory, get_installdir, sub_template, get_template
+from expfactory.utils import (
+    save_template, 
+    clean_fields, 
+    copy_directory, 
+    get_installdir, 
+    sub_template, 
+    get_template
+)
+
 from logman import bot
 from git import Repo
 import tempfile
